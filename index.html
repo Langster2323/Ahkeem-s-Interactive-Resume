@@ -1,73 +1,69 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Web Developer</title>
-      <!-- Compiled and minified CSS -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-    </head>
-    <body>
-<!-- <nav>
-  <div class="nav-wrapper">
-    <a href="#" class="brand-logo">Ahkeem's Resume</a>
-    <ul id="nav-mobile" class="right hide-on-med-and-down">
-      <li><a href="sass.html">Sass</a></li>
-      <li><a href="badges.html">Components</a></li>
-      <li><a href="collapsible.html">JavaScript</a></li>
-    </ul>
-  </div>
-</nav> -->
-<div class="slider fullscreen">
-    <ul class="slides">
-      <li>
-        <img src="pictures/Image.jpg">
-        <div class="caption center-align">
-          <h3 font color="black">About me!</h3>
-          <h5 class="light grey-text text-lighten-3">Hi, I'm Ahkeem Lang.</h5>
-          <p>
-          web developer. I'm proficient in front-end techniques, but I'm also
-        familiar in back-end techniques with Ruby on Rails && Java Techniques. On
-      a daily bases I love to actively teach myself new techniques.
-    Whether if it's building a console based app in Java || or a website! Also I
-  really enjoy working in a team, you will learn much faster and more! If I'm
-not on the computer researching or building something, you can find me on the
-sand volleyball court.</p>
-        </div>
-      </li>
-      <li>
-        <img src="pictures/bike.jpg">
-        <div class="caption left-align">
-          <h3>Left Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
-        <div class="caption right-align">
-          <h3>Right Aligned Caption</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-      <li>
-        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
-        <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
+<!DOCTYPE html>
+<html>
 
-  <!--Import jQuery before materialize.js-->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js">
-  </script>
-  <script>
-  $(document).ready(function(){
-  $('.slider').slider();
-});
-</script>
-
-    </body>
-  </html>
+  <head>
+    <meta charset="utf-8">
+    <Title>Origin | I Think therefore, I Think</Title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='http://fonts.googleapis.com/css? family=Changa+one|Open+Sans:400italic,700italic,400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/dragon.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" id="logo">
+      <h1>Ahkeem Lang</h1>
+      <h2>I Think therefore, I Think</h2>
+        </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="selected">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+      <div id="wrapper">
+        <section>
+          <ul id="gallery">
+            <li>
+              <a href="img/Heidegger.jpg">
+                <img src="img/Heidegger.jpg" alt="">
+                <p>Experimentation with color and texture.</p>
+              </a>
+            </li>
+           <li>
+              <a href="img/numbers-02.jpg">
+                <img src="img/numbers-02.jpg" alt="">
+                <p>Playing with blending modes in photoshop.</p>
+              </a>
+            </li>
+            <li>
+              <a href="img/numbers-06.jpg">
+                <img src="img/numbers-06.jpg" alt="">
+                <p>Trying to create a 80's style with glow.</p>
+              </a>
+            </li>
+            <li>
+              <a href="img/numbers-09.jpg">
+                <img src="img/numbers-09.jpg" alt="">
+                <p>Drips created using photoshops brushes.</p>
+              </a>
+            </li>
+            <li>
+              <a href="img/numbers-12.jpg">
+                <img src="img/numbers-12.jpg" alt="">
+                <p>Creating shapes using repetition.</p>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <footer>
+          <a href="http://twitter.com/AhkeemLang"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+          <a href="http://www.facebook.com/ahkeem.lang"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+          <p>&copy; 2015 Ahkeem Lang.</p>
+        </footer>
+      </div>
+  </body>
+</html>
