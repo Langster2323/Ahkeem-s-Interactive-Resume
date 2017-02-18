@@ -149,6 +149,10 @@ PAGE: ABOUT
   border-radius: 100%;
 }
 
+#wrapper p {
+  text-align: center;
+}
+
 
 
 
