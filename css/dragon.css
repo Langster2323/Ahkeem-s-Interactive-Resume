@@ -231,3 +231,11 @@ nav a, nav a:visited {
 nav a.selected, nav a:hover {
   color: #32673f;
 }
+
+img:hover {
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -o-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
